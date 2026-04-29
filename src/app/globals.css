@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* SamPort Styling */
+.samport-text {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ffffff, #cccccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
